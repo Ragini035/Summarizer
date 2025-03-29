@@ -45,7 +45,7 @@ if st.button("Summarize the Content from Website"):
                 docs = loader.load()
 
                 # Initialize LLM inside the try block
-                llm = ChatGroq(model="gemma-2b-it", groq_api_key=groq_api_key)
+                llm = ChatGroq(model="gemma2-9b-It", groq_api_key=groq_api_key)
 
                 # Chain For Summarization
                 chain = load_summarize_chain(llm, chain_type="stuff", prompt=prompt)
