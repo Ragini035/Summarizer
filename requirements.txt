@@ -3,3 +3,4 @@ validators
 langchain
 langchain-groq
 langchain-community
+unstructured
