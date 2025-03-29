@@ -1,0 +1,5 @@
+streamlit
+validators
+langchain
+langchain-groq
+langchain-community
